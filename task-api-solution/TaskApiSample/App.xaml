@@ -1,0 +1,8 @@
+﻿<Application x:Class="MyWork.TaskApiSample.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="Views\TaskApiView.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
