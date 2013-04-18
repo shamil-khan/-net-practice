@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sky.web", "source\sky.web\sky.web.csproj", "{B4A29BE9-C917-4149-AB34-E397BF9FA879}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "web(4)", "http://localhost:1580", "{189C12DC-0E87-4862-86EA-0748CB2D317B}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{b4a29be9-c917-4149-ab34-e397bf9fa879}|sky.web.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_1580"
+		Debug.AspNetCompiler.PhysicalPath = "source\web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1580\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_1580"
+		Release.AspNetCompiler.PhysicalPath = "source\web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1580\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "source\web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4A29BE9-C917-4149-AB34-E397BF9FA879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A29BE9-C917-4149-AB34-E397BF9FA879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4A29BE9-C917-4149-AB34-E397BF9FA879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4A29BE9-C917-4149-AB34-E397BF9FA879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{189C12DC-0E87-4862-86EA-0748CB2D317B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{189C12DC-0E87-4862-86EA-0748CB2D317B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{189C12DC-0E87-4862-86EA-0748CB2D317B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{189C12DC-0E87-4862-86EA-0748CB2D317B}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
