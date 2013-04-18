@@ -1,0 +1,28 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicRelative" maxBufferSize="2147483647" maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+            </basicHttpBinding>
+            <customBinding>
+                <binding name="WsPlain">
+                    <textMessageEncoding messageVersion="Default" writeEncoding="utf-8" />
+                    <httpTransport maxReceivedMessageSize="2147483647" maxBufferSize="2147483647" />
+                </binding>
+            </customBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://localhost:6565/Services/EchoWcfService.svc"
+                binding="customBinding" bindingConfiguration="WsPlain" contract="ServiceReference1.IEchoWcfService"
+                name="WsPlain" />
+            <endpoint address="http://localhost:6565/Services/EchoWcfService.svc/BasicRelative"
+                binding="basicHttpBinding" bindingConfiguration="BasicRelative"
+                contract="ServiceReference1.IEchoWcfService" name="BasicRelative" />
+            <endpoint address="http://localhost:6565/Services/EchoWcfService.svc/Basic"
+                binding="basicHttpBinding" bindingConfiguration="BasicRelative"
+                contract="ServiceReference1.IEchoWcfService" name="Basic" />
+        </client>
+    </system.serviceModel>
+</configuration>

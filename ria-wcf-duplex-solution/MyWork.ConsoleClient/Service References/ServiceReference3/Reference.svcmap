@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="5f3a915b-2c9c-4fe3-b441-4ffd7177de19" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:6565/Services/MyWork-Services-EchoRiaService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="EchoRiaService.wsdl" MetadataType="Wsdl" ID="4617508e-b4ff-4fb0-8de8-5d23ba844a27" SourceId="1" SourceUrl="http://localhost:6565/Services/MyWork-Services-EchoRiaService.svc?wsdl" />
+    <MetadataFile FileName="MyWork-Services-EchoRiaService.xsd" MetadataType="Schema" ID="8d7d36f8-02c4-4234-aa2a-22efa982028d" SourceId="1" SourceUrl="http://localhost:6565/Services/MyWork-Services-EchoRiaService.svc?xsd=xsd0" />
+    <MetadataFile FileName="MyWork-Services-EchoRiaService1.xsd" MetadataType="Schema" ID="02efffda-8030-4c2b-a30e-4f9b352fbb1e" SourceId="1" SourceUrl="http://localhost:6565/Services/MyWork-Services-EchoRiaService.svc?xsd=xsd1" />
+    <MetadataFile FileName="MyWork-Services-EchoRiaService2.xsd" MetadataType="Schema" ID="36734dc1-09fc-457b-b510-3b0dc5925d08" SourceId="1" SourceUrl="http://localhost:6565/Services/MyWork-Services-EchoRiaService.svc?xsd=xsd2" />
+    <MetadataFile FileName="MyWork-Services-EchoRiaService3.xsd" MetadataType="Schema" ID="33983e92-5668-4d77-86ac-80d0ccdef7bb" SourceId="1" SourceUrl="http://localhost:6565/Services/MyWork-Services-EchoRiaService.svc?xsd=xsd3" />
+    <MetadataFile FileName="MyWork-Services-EchoRiaService.disco" MetadataType="Disco" ID="c8ff622a-f8c8-47d8-8c3d-9a42bd528374" SourceId="1" SourceUrl="http://localhost:6565/Services/MyWork-Services-EchoRiaService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
