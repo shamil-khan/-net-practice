@@ -7,6 +7,6 @@ The solution demonstrates Wcf Service accessing like rest service, having two se
 
 These service are rest services and can consume via browser alone.
 e.g
-http://localhost:port/services/echoservice.svc/echo/helloSomeMessage
-http://localhost:port/services/productservice.svc/products/100 ( returns json )
-http://localhost:port/services/productservice.svc/product/15 ( returns json )
+http://localhost:port/web/services/echoservice.svc/echo/helloSomeMessage
+http://localhost:port/web/services/productservice.svc/products/100 ( returns json )
+http://localhost:port/web/services/productservice.svc/product/15 ( returns json )
